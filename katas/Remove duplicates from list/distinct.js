@@ -1,12 +1,10 @@
 function distinct(numbers) {
   let result = []
-
   numbers.forEach((number) => {
     if (!result.includes(number)) {
       result.push(number)
     }
   })
-  console.log(result)
   return result
 }
 
