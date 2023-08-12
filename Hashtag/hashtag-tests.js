@@ -1,4 +1,5 @@
 const {assert} = require("chai")
+const {generateHashtag} = require("./hashtag")
 
 describe("Tests", () => {
   it("Sample tests", () => {
