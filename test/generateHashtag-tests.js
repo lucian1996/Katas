@@ -1,8 +1,8 @@
 const {assert} = require("chai")
-const {generateHashtag} = require("./hashtag")
+const {generateHashtag} = require("../katas/Hashtag Generator/generateHashtag")
 
-describe("Tests", () => {
-  it("Sample tests", () => {
+describe("Hashtag Tests", () => {
+  it("test", () => {
     assert.strictEqual(
       generateHashtag(""),
       false,
