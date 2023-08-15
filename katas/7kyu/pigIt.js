@@ -6,11 +6,8 @@ function pigIt(str) {
     return root + prefix + "ay"
   })
   const final = transformedWords.join(" ")
-
   const lastChar = str[str.length - 1]
   const isSpecialCharacter = /[!.,;?]/.test(lastChar)
-
-  console.log(final + (isSpecialCharacter ? " " + lastChar : ""))
   return final + (isSpecialCharacter ? " " + lastChar : "")
 }
 
@@ -18,5 +15,5 @@ function pigIt(str) {
 // ;("igPay atinlay siay oolcay")
 // pigIt("This is my string")
 // ;("hisTay siay ymay tringsay")
-pigIt("O tempora o mores !")
+// pigIt("O tempora o mores !")
 // ;("Oay emporatay oay oresmay !")
